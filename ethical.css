@@ -1,0 +1,105 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", "Open Sans";
+    overflow-x: hidden;
+    transition: all 0.3s ease;
+}
+
+html{
+    height: 100%;
+}
+
+body {
+    line-height: 1.6;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background-color: #f0f2f5;
+    transition: all 0.3s ease;
+}
+
+.title_shop{
+  margin-bottom: 20px;
+  position: relative;
+  margin-top: 20px;
+  left: 0%;
+  background: rgb(255, 255, 255);
+  padding: 20px;
+  width: 100%;
+  height: 12svh;
+  overflow: hidden;
+}
+
+/* Links */
+a {
+  color: #2a6db0;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Shop block with text only */
+.shop {
+  background-color: white;
+  padding: 25px;
+  border-radius: 12px;
+  margin-bottom: 30px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.shop-with-image {
+  margin: auto;
+  width: 70vw;
+  justify-content: center;
+  background-color: white;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.shop-image img {
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 3px 8px rgba(0,0,0,0.15);
+}
+
+/* Shop row layout */
+.shop-row {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  background-color: white;
+  padding: 25px;
+  border-radius: 12px;
+  margin-bottom: 30px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.image-section img {
+  width: 100%;
+  max-width: 350px;
+  border-radius: 10px;
+  margin-top: 10px;
+  box-shadow: 0 3px 8px rgba(0,0,0,0.15);
+}
+
+.shop-image img {
+  width: 100%;
+  max-width: 400px;
+  height: 240px;
+  object-fit: cover;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.shop-image img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.25);
+}

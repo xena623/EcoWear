@@ -1,0 +1,23 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", "Open Sans";
+    overflow-x: hidden;
+    transition: all 0.3s ease;
+}
+
+html{
+    height: 100%;
+}
+
+body {
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    transition: all 0.3s ease;
+  }
+  
+  

@@ -1,0 +1,79 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", "Open Sans";
+    overflow-x: hidden;
+    transition: all 0.3s ease;
+}
+
+html{
+    height: 100%;
+}
+
+body {
+    line-height: 1.6;
+    font-family: Arial, sans-serif;
+    background-color: #E0E0E0;
+    margin: 0;
+    padding: 0;
+    transition: all 0.3s ease;
+  }
+  
+  .container {
+    padding: 20px;
+    background: linear-gradient(to right, #fafffb, #e3e3e3);
+    margin: 40px auto;
+    width: 80%;
+    height: 60vh;
+    border-radius: 15px;
+  }
+  
+  .container h1 {
+    text-align: center;
+    font-size: 26px;
+  }
+  
+.title_shop{
+  margin-bottom: 20px;
+  position: relative;
+  margin-top: 20px;
+  background: rgb(255, 255, 255);
+  padding: 20px;
+  width: 100%;
+  overflow: hidden;
+  text-align: center;
+}
+  
+  .box {
+    padding: 10px;
+    margin: 10px;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    height: 50vh;
+  }
+  
+  .box-members{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex: 1;
+  }
+
+  .team-member {
+    text-align: center;
+  }
+  
+.avatar {
+  width: 100px;
+  height: 100px;
+  background-color: #e0f7fa;
+  border-radius: 50%;
+  margin: 15px 50px;
+  background-size: cover;
+  background-position: center;
+  border: 3px solid #ccc;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}

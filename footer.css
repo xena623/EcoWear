@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", "Open Sans";
+    overflow-x: hidden;
+    transition: all 0.3s ease;
+}
+
+footer {
+    background: linear-gradient(135deg, #abc3d5 0%, #483b58 100%);
+    color: white;
+    padding: 2rem;
+    position: relative;
+}
+
+.footer-header{
+    text-align: center;
+}
+
+.footer-logo {
+    font-size: 1.8rem;
+    font-weight: bold;
+    background: linear-gradient(to right, #ffffff, #c8e6c9);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+.footer-col a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    margin-bottom: 0.5rem;
+    transition: all 0.3s;
+    position: relative;
+    padding-left: 0.5rem;
+}
+
+.footer-col a:hover {
+    transform: translateY(5px);
+    opacity: 0.9;
+}
+
+.footer-col a::before {
+    content: ">";
+    position: absolute;
+    left: -10px;
+    opacity: 0;
+    transition: all 0.3s;
+}
+
+.footer-col a:hover::before {
+    left: -15px;
+    opacity: 1;
+}
+
+.copyright {
+    max-width: 1200px;
+    margin: 2rem auto 0;
+    padding-top: 1rem;
+    border-top: 1px solid rgba(255,255,255,0.2);
+    text-align: center;
+    font-size: 0.9rem;
+    color: rgba(255,255,255,0.7);
+}
+
+.logo_footer {
+    font-size: 80px;
+    font-weight: bold;
+    font-family: "Dancing Script";
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.521);
+    color: white;
+}

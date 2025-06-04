@@ -1,0 +1,96 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", "Open Sans";
+    overflow-x: hidden;
+    transition: all 0.3s ease;
+}
+
+html{
+    height: 100%;
+}
+
+body {
+    line-height: 1.6;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f3f9f6;
+  color: #333;
+  margin: 0;
+    transition: all 0.3s ease;
+}
+
+.container {
+  max-width: 1000px;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  padding: 30px;
+}
+
+.text-section h1 {
+  font-size: 36px;
+  color: #2e4a3f;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.image-section {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.image-section img {
+  max-width: 100%;
+  border-radius: 10px;
+  height: auto;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.img-caption {
+  font-size: 14px;
+  color: #666;
+  margin-top: 10px;
+}
+
+.info-card {
+  background: #f0f7f4;
+  border-left: 6px solid #4caf50;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+.info-card h2 {
+  margin-top: 0;
+  color: #2e7d32;
+}
+
+.info-card p {
+  margin: 10px 0;
+  line-height: 1.6;
+}
+
+.info-card ul {
+  margin: 10px 0 0 20px;
+  padding-left: 0;
+}
+
+.info-card ul li {
+  margin-bottom: 8px;
+  line-height: 1.5;
+}
+
+.info-card.action {
+  background: #e6f4ea;
+  border-left-color: #81c784;
+}
+
+.info-card.clothes {
+  background: #f9f9f9;
+  border-left-color: #9575cd;
+}

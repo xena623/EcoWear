@@ -1,0 +1,37 @@
+ 
+.flex-container {
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:center;
+ 
+    width:80%;
+    margin:auto;
+   
+}
+.flex-container img {
+    width:200px;
+    height:160px;
+   display: block;
+   margin: auto;
+}
+.card1, .card2, .card3 {
+    flex-basis: 27%;
+    border: 1px solid black;
+    background-color: #457757;
+    padding:15px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+h1 {
+  background-color: #3f6b4f;
+  color: white;
+  padding: 25px 20px;
+  margin: 0 -30px 40px;
+  border-radius: 0 0 12px 12px;
+  font-size: 28px;
+  text-align: center;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.2);
+}
